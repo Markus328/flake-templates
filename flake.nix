@@ -3,7 +3,7 @@
   outputs = {self}: {
     templates = {
       dev.minimal = {
-        path = ./minimal;
+        path = ./dev/minimal;
         description = "A template that create a minimal dev flake for each system.";
       };
       config.minimal.nixos = {
